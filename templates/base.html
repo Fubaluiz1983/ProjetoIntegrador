@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/" style="color: #FFF">Home</a></li>
+                <li><a href="/cadastro_animais" style="color: #FFF">Animais</a></li>
+                <li><a href="/cadastro_adotantes" style="color: #FFF">Adotantes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>&copy; 2023 - ONG de animais</p>
+    </footer>
+</body>
+</html>
