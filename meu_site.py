@@ -15,9 +15,9 @@ def homepage():
 def cadastro_adotantes():
     return render_template('cadastro_adotantes.html')
 
-@app.route('/usuarios/<nome_usuario>')
-def usuarios(nome_usuario):
-    return render_template('usuarios.html', nome_usuario=nome_usuario)
+@app.route('/animais_cadastrados')
+def animais_cadastrados():
+    return render_template('animais_cadastrados.html')
 
 @app.route('/cadastro_animais')
 def cadastro_animais():

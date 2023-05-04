@@ -1,0 +1,31 @@
+/* Define o estilo do corpo do texto */
+body {
+  /*font-family: Arial, sans-serif;*/
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-image: url('../static/img/foto3.jpg');
+  background-size: cover;
+}
+
+/* Define o estilo do título */
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Define o estilo do parágrafo */
+p {
+  margin-bottom: 20px;
+}
+
+/* Define o estilo da seção "sobre" */
+.sobre {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /*opacity : 0.75;*/
+}

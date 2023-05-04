@@ -1,24 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns:margin-right="http://www.w3.org/1999/xhtml">
 <head>
     <title>{% block title %}{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+<!--<body background="../static/img/foto3.jpg">-->
     <header>
-        <nav>
-            <ul>
-                <li><a href="/" style="color: #FFF">Home</a></li>
-                <li><a href="/cadastro_animais" style="color: #FFF">Animais</a></li>
-                <li><a href="/cadastro_adotantes" style="color: #FFF">Adotantes</a></li>
-            </ul>
-        </nav>
+        <!--        <nav>-->
+<!--            <div class = "menu">-->
+<!--              <ul>-->
+<!--                  <li><a href="/" style="color: #FFF">Home</a></li>-->
+<!--                  <li><a href="/animais" style="color: #FFF">Animais</a></li>-->
+<!--                      <ul>-->
+<!--                         <li><a href="/cadastro_animais" style="color: #FFF">Cadastro de Animais</a>-->
+<!--	         	         <li><a href="/animais_cadastrados" style="color: #FFF">Animais Cadastrados</a></li>-->
+<!--                      </ul>-->
+<!--                  </li>-->
+<!--                  <li><a href="/cadastro_adotantes" style="color: #FFF">Adote um Amigo</a></li>-->
+<!--              </ul>-->
+<!--            </div>-->
+<!--        </nav>-->
+
+<!--            background-image: url('/static/img/foto1.jpg');-->
+<!--    background-repeat: no-repeat;-->
+<!--    background-size: cover;-->
+
+<!--        <nav>-->
+<!--            <div class="logo">-->
+<!--        <img src="{{ url_for('static', filename='img/ff.jpg') }}" alt="Logo da ONG">-->
+<!--    </div>-->
+    <div class="menu">
+        <img class="imglogo" src="/static/img/ff.jpg" alt="Logo da ONG">
+      <ul>
+        <li><a href="/" style="color: #FFF">Home</a></li>
+        <li><a href="" style="color: #FFF">Animais</a>
+          <ul>
+            <li><a href="/cadastro_animais" style="color: #FFF">Cadastro de Animais</a></li>
+            <li><a href="/animais_cadastrados" style="color: #FFF">Animais Cadastrados</a></li>
+          </ul>
+        </li>
+        <li><a href="/cadastro_adotantes" style="color: #FFF">Adote um Amigo</a></li>
+<!--        </li>-->
+<!--        <li><a href="#" style="color: #FFF">Sobre</a></li>-->
+      </ul>
+    </div>
+  </nav>
+
     </header>
     <main>
         {% block content %}{% endblock %}
     </main>
+    <br>
     <footer>
         <p>&copy; 2023 - ONG de animais</p>
     </footer>
 </body>
 </html>
+
+

@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/*
+.teste{
+    margin: 0;
+    padding: 0;
+    margin:3.7%;
+    right: 10px;
+}*/
+/*
+.teste {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}*/
+
+
+.animais-container {
+  display: flex;
+  justify-content: center; /* alinha os elementos filhos ao centro */
+}
+
+.animal {
+  width: 400px; /* ajusta a largura dos elementos filho */
+  margin: 0 10px; /* adiciona um espaço entre os elementos filho */
+  justify-content: right;
+}

@@ -1,9 +1,17 @@
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Animais</title>
+  <link rel="stylesheet" href="static/cadanimais.css">
+</head>
+
 {% extends 'base.html' %}
 
-{% block title %}Cadastro de animais{% endblock %}
+{% block title %}Cadastro de Animais{% endblock %}
 
 {% block content %}
-    <h1>Cadastro de animais</h1>
+<br>
+    <h1>Cadastro de Animais</h1>
     <form method="POST" action="{{ url_for('cadastro_animais') }}">
         <div>
             <label for="nome">Nome:</label>
@@ -27,6 +35,10 @@
                 <option value="M">Macho</option>
                 <option value="F">Fêmea</option>
             </select>
+        </div>
+        <div>
+            <label for="imagem">Imagem:</label>
+            <input type="file" style="background-color: #fff" id="imagem" name="imagem">
         </div>
         <button type="submit">Cadastrar</button>
     </form>
