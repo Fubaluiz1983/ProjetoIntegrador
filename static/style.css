@@ -112,6 +112,12 @@ body{
   float:left;
   position: relative;
 }
+
+.footer{
+ text-align: center;
+ font-weight: bold;
+}
+
 /*
 .menu ul li:hover{
   background:#333;

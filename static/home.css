@@ -4,7 +4,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background-image: url('../static/img/foto3.jpg');
+  background-image: url('../static/img/foto11.jpg');
   background-size: cover;
 }
 
@@ -29,3 +29,4 @@ p {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   /*opacity : 0.75;*/
 }
+
