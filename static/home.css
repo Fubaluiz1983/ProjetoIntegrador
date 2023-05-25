@@ -30,3 +30,8 @@ p {
   /*opacity : 0.75;*/
 }
 
+.localizacao {
+  text-align: center; /* Alinha o parágrafo ao centro */
+  border: 2px solid #ccc; /* Adiciona uma borda */
+  padding: 10px; /* Adiciona um espaçamento interno */
+}
